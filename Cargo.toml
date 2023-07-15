@@ -1,0 +1,15 @@
+[package]
+name = "encodable"
+version = "0.1.0"
+edition = "2021"
+authors = ["Roy <varonroy@gmail.com>"]
+repository = "https://github.com/varonroy/encodable"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+thiserror = "1.0.43"
+
+[dev-dependencies]
+approx = "0.5.1"
+itertools = "0.11.0"
+
